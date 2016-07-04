@@ -1,6 +1,9 @@
 # ActiveStandardsTest
 Calculate days between dates.
 
+to run: ./gradlew run
+to run tests: ./gradlew test
+
 Decisions made:
 - Task is very procedural so didnt need to use inheritance
 - chose not to use an DI
