@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.paulhoang.services.InputServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-07-04T00:14:29" hostname="Pauls-MacBook-Pro-2.local" time="0.015">
+<testsuite name="com.paulhoang.services.InputServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-07-04T08:59:29" hostname="ip-10-10-10-94.eu-west-1.compute.internal" time="0.02">
   <properties/>
-  <testcase name="splitToDateListShouldReturnListOfIntegersWhenValid" classname="com.paulhoang.services.InputServiceTest" time="0.01"/>
+  <testcase name="splitToDateListShouldReturnListOfIntegersWhenValid" classname="com.paulhoang.services.InputServiceTest" time="0.015"/>
   <testcase name="getDateInputShouldThrowExceptionWhenInvalidateInput" classname="com.paulhoang.services.InputServiceTest" time="0.002"/>
   <testcase name="getDateInputShouldCallConsoleInputWrapperAndValidateInput" classname="com.paulhoang.services.InputServiceTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

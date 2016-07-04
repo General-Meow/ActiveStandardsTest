@@ -13,6 +13,11 @@ repositories {
     mavenCentral()
 }
 
+//console application requires input from system in
+run{
+    standardInput = System.in
+}
+
 dependencies {
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.4'
     compile group: 'commons-collections', name: 'commons-collections', version: '3.2.2'

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.paulhoang.QuizRunnerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-07-04T00:14:29" hostname="Pauls-MacBook-Pro-2.local" time="0.041">
+<testsuite name="com.paulhoang.QuizRunnerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-07-04T08:59:29" hostname="ip-10-10-10-94.eu-west-1.compute.internal" time="0.04">
   <properties/>
-  <testcase name="getDaysBetweenDatesShouldGetInputFromInputUtils" classname="com.paulhoang.QuizRunnerTest" time="0.03"/>
-  <testcase name="getDaysBetweenDatesShouldConvertDatesFromInput" classname="com.paulhoang.QuizRunnerTest" time="0.004"/>
-  <testcase name="loopTillEndShouldCallGetDaysBetweenDates6Times" classname="com.paulhoang.QuizRunnerTest" time="0.002"/>
+  <testcase name="getDaysBetweenDatesShouldGetInputFromInputUtils" classname="com.paulhoang.QuizRunnerTest" time="0.026"/>
+  <testcase name="getDaysBetweenDatesShouldConvertDatesFromInput" classname="com.paulhoang.QuizRunnerTest" time="0.006"/>
+  <testcase name="loopTillEndShouldCallGetDaysBetweenDates6Times" classname="com.paulhoang.QuizRunnerTest" time="0.003"/>
   <testcase name="getDaysBetweenDatesShouldCallCalculateBetweenDatesWithOutputFromConvertDate" classname="com.paulhoang.QuizRunnerTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.paulhoang.QuizRunner - Input line:
