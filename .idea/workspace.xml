@@ -106,11 +106,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.20958084">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -291,10 +291,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizRunner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuizRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/paulhoang/QuizRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52095807">
+            <state vertical-scroll-proportion="0.0">
               <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -651,7 +651,6 @@
         <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/time/temporal/ChronoUnit.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/paulhoang/utils/InputUtilTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/paulhoang/services/DateServiceTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/com/paulhoang/QuizRunnerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/paulhoang/utils/InputUtil.java" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -661,6 +660,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/paulhoang/QuizRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/paulhoang/services/InputService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/paulhoang/utils/InputWrapper.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -1583,12 +1583,12 @@
       <workItem from="1467403966431" duration="2992000" />
       <workItem from="1467410432255" duration="5300000" />
       <workItem from="1467491637149" duration="55000" />
-      <workItem from="1467491715985" duration="17238000" />
+      <workItem from="1467491715985" duration="17490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25585000" />
+    <option name="totallyTimeSpent" value="25837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
@@ -2015,14 +2015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-all/1.10.19/8269667b73d9616600359a9b0ba1b1c7d0cf7a97/mockito-all-1.10.19-sources.jar!/org/mockito/ArgumentCaptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2106,11 +2098,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/paulhoang/QuizRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52095807">
+        <state vertical-scroll-proportion="0.0">
           <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20958084">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
