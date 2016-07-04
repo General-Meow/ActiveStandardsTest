@@ -1,7 +1,7 @@
 package com.paulhoang;
 
 import com.paulhoang.services.DateService;
-import com.paulhoang.utils.InputUtil;
+import com.paulhoang.services.InputService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -32,7 +32,7 @@ public class QuizRunnerTest {
     @Mock
     private DateService dateServiceMock;
     @Mock
-    private InputUtil inputUtilMock;
+    private InputService inputServiceMock;
     @Captor
     private ArgumentCaptor<List<Integer>> dateCaptor;
 
@@ -46,12 +46,12 @@ public class QuizRunnerTest {
     @Test
     public void getDaysBetweenDatesShouldGetInputFromInputUtils() {
         testObj.getDaysBetweenDates();
-        verify(inputUtilMock).getDateInput();
+        verify(inputServiceMock).getDateInput();
     }
 
     @Test
     public void getDaysBetweenDatesShouldConvertDatesFromInput() {
-        when(inputUtilMock.getDateInput()).thenReturn(VALID_DATE_LIST);
+        when(inputServiceMock.getDateInput()).thenReturn(VALID_DATE_LIST);
         testObj.getDaysBetweenDates();
 
         verify(dateServiceMock, times(2)).convertToDate(dateCaptor.capture());
@@ -64,7 +64,7 @@ public class QuizRunnerTest {
 
     @Test
     public void getDaysBetweenDatesShouldCallCalculateBetweenDatesWithOutputFromConvertDate() {
-        when(inputUtilMock.getDateInput()).thenReturn(VALID_DATE_LIST);
+        when(inputServiceMock.getDateInput()).thenReturn(VALID_DATE_LIST);
         when(dateServiceMock.convertToDate(anyList()))
                 .thenReturn(FIRST_DATE)
                 .thenReturn(SECOND_DATE);

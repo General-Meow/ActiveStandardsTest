@@ -4,15 +4,13 @@ import java.util.Scanner;
 
 /**
  * Created by paul on 02/07/16.
- *
- * Class created to just wrap the java console static method.
- * Only done as I want to mock the console output for tests.
- *
- * restricted to default on purpose
+ * <p>
+ * Class created to just wrap the java console input.
+ * Only done as I want to mock the console input for tests.
  */
-class InputWrapper {
+public class InputWrapper {
 
-    protected String readInputFromConsole(){
+    public String readInputFromConsole() {
         return new Scanner(System.in).nextLine();
     }
 }

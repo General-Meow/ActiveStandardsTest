@@ -1,5 +1,7 @@
-package com.paulhoang.utils;
+package com.paulhoang.services;
 
+import com.paulhoang.services.InputService;
+import com.paulhoang.utils.InputWrapper;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,14 +18,14 @@ import static org.mockito.Mockito.*;
  * Created by paul on 02/07/16.
  */
 @RunWith(MockitoJUnitRunner.class)
-public class InputUtilTest {
+public class InputServiceTest {
 
     private static final String VALID_CONSOLE_INPUT = "1, 2, 3, 4, 5, 6";
     private static final String INVALID_CONSOLE_INPUT_CONTAINS_CHAR = "3, 2, 1900, EXX, 2, 1922";
 
     @Spy
     @InjectMocks
-    private InputUtil testObj = InputUtil.getInstance();
+    private InputService testObj = InputService.getInstance();
 
     @Mock
     private InputWrapper inputWrapperMock;

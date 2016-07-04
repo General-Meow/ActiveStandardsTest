@@ -11,7 +11,6 @@ import java.util.List;
 /**
  * Created by paul on 01/07/16.
  **/
-//singleton
 public class DateService {
 
     private static final int LOWEST_VALID_YEAR = 1901;

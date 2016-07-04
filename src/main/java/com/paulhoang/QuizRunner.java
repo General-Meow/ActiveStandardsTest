@@ -1,7 +1,7 @@
 package com.paulhoang;
 
 import com.paulhoang.services.DateService;
-import com.paulhoang.utils.InputUtil;
+import com.paulhoang.services.InputService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,12 +17,12 @@ public class QuizRunner {
     private static final Logger LOG = LoggerFactory.getLogger(QuizRunner.class);
 
     private DateService dateService;
-    private InputUtil inputUtil;
+    private InputService inputService;
 
     public QuizRunner() {
         //old school - no injection
         dateService = DateService.getInstance();
-        inputUtil = InputUtil.getInstance();
+        inputService = InputService.getInstance();
     }
 
     public static void main(final String[] args) {
@@ -39,10 +39,10 @@ public class QuizRunner {
         }
     }
 
-    protected void getDaysBetweenDates(){
+    protected void getDaysBetweenDates() {
         try {
             LOG.info("Input line:");
-            final List<Integer> dates = inputUtil.getDateInput();
+            final List<Integer> dates = inputService.getDateInput();
             final LocalDate firstDate = dateService.convertToDate(dates.subList(0, 3));
             final LocalDate secondDate = dateService.convertToDate(dates.subList(3, 6));
 

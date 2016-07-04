@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.paulhoang.services.DateServiceTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2016-07-03T23:30:19" hostname="Pauls-MacBook-Pro-2.local" time="0.071">
+<testsuite name="com.paulhoang.services.DateServiceTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2016-07-04T00:14:29" hostname="Pauls-MacBook-Pro-2.local" time="0.063">
   <properties/>
-  <testcase name="isValidDateShouldThrowExceptionIfInputIsEmpty" classname="com.paulhoang.services.DateServiceTest" time="0.016"/>
-  <testcase name="isValidDateShouldReturnTrueIfInputIsValid" classname="com.paulhoang.services.DateServiceTest" time="0.0"/>
+  <testcase name="isValidDateShouldThrowExceptionIfInputIsEmpty" classname="com.paulhoang.services.DateServiceTest" time="0.01"/>
+  <testcase name="isValidDateShouldReturnTrueIfInputIsValid" classname="com.paulhoang.services.DateServiceTest" time="0.001"/>
   <testcase name="isValidDateShouldReturnFalseIfInputIsInvalid" classname="com.paulhoang.services.DateServiceTest" time="0.0"/>
   <testcase name="isValidDateShouldReturnFalseIfYearIsAfter2999" classname="com.paulhoang.services.DateServiceTest" time="0.0"/>
-  <testcase name="calculateDaysBetweenDatesShouldReturnDayBetween2DatesExcludingTheDatesProvided_1" classname="com.paulhoang.services.DateServiceTest" time="0.048"/>
+  <testcase name="calculateDaysBetweenDatesShouldReturnDayBetween2DatesExcludingTheDatesProvided_1" classname="com.paulhoang.services.DateServiceTest" time="0.047"/>
   <testcase name="calculateDaysBetweenDatesShouldReturnDayBetween2DatesExcludingTheDatesProvided_2" classname="com.paulhoang.services.DateServiceTest" time="0.001"/>
   <testcase name="calculateDaysBetweenDatesShouldReturnDayBetween2DatesEvenDatesAreFlipped" classname="com.paulhoang.services.DateServiceTest" time="0.0"/>
-  <testcase name="convertToDateShouldThrowExceptionIfInputIsInvalid" classname="com.paulhoang.services.DateServiceTest" time="0.001"/>
+  <testcase name="convertToDateShouldThrowExceptionIfInputIsInvalid" classname="com.paulhoang.services.DateServiceTest" time="0.0"/>
   <testcase name="isValidDateShouldReturnFalseIfYearIsBefore1901" classname="com.paulhoang.services.DateServiceTest" time="0.0"/>
   <testcase name="convertToDateShouldReturnDateIfInputIsValid" classname="com.paulhoang.services.DateServiceTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

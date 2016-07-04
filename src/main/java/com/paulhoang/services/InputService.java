@@ -1,32 +1,31 @@
-package com.paulhoang.utils;
+package com.paulhoang.services;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
-import com.paulhoang.services.DateService;
+import com.paulhoang.utils.InputWrapper;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
  * Created by paul on 01/07/16.
  */
-public class InputUtil {
+public class InputService {
 
     private static final int REQUIRED_INTEGERS = 6;
 
-    private static InputUtil INSTANCE;
+    private static InputService INSTANCE;
     private InputWrapper inputWrapper;
 
-    private InputUtil() {
+    private InputService() {
         inputWrapper = new InputWrapper();
     }
 
-    public static InputUtil getInstance() {
+    public static InputService getInstance() {
         if (INSTANCE == null) {
-            INSTANCE = new InputUtil();
+            INSTANCE = new InputService();
         }
 
         return INSTANCE;
@@ -35,7 +34,7 @@ public class InputUtil {
 
     public List<Integer> getDateInput() {
         final String consoleInput = inputWrapper.readInputFromConsole();
-        if(!validateInput(consoleInput)) {
+        if (!validateInput(consoleInput)) {
             throw new IllegalArgumentException("Invalid Input");
         }
         return splitToDateList(consoleInput);
