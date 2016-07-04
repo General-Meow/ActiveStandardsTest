@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.paulhoang.QuizRunnerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-07-03T23:30:19" hostname="Pauls-MacBook-Pro-2.local" time="0.03">
+  <properties/>
+  <testcase name="loopTillEndShouldCallGetInputUntilLoopEnd" classname="com.paulhoang.QuizRunnerTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.paulhoang.QuizRunner - Input line #1
+[Test worker] WARN com.paulhoang.QuizRunner - Input exception please try again
+[Test worker] INFO com.paulhoang.QuizRunner - Input line #2
+[Test worker] WARN com.paulhoang.QuizRunner - Input exception please try again
+[Test worker] INFO com.paulhoang.QuizRunner - Input line #3
+[Test worker] WARN com.paulhoang.QuizRunner - Input exception please try again
+[Test worker] INFO com.paulhoang.QuizRunner - Input line #4
+[Test worker] WARN com.paulhoang.QuizRunner - Input exception please try again
+[Test worker] INFO com.paulhoang.QuizRunner - Input line #5
+[Test worker] WARN com.paulhoang.QuizRunner - Input exception please try again
+[Test worker] INFO com.paulhoang.QuizRunner - Input line #6
+[Test worker] WARN com.paulhoang.QuizRunner - Input exception please try again
+]]></system-err>
+</testsuite>
